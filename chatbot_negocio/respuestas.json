@@ -1,0 +1,45 @@
+{
+    "palabras_clave": {
+        "hola": "bienvenida",
+        "buenos días": "bienvenida",
+        "buenas tardes": "bienvenida",
+        "precio": "precios",
+        "costo": "precios",
+        "cuanto cuesta": "precios",
+        "horario": "horarios",
+        "abierto": "horarios",
+        "ubicacion": "ubicacion",
+        "donde estan": "ubicacion",
+        "direccion": "ubicacion",
+        "producto": "productos",
+        "servicio": "productos",
+        "que venden": "productos",
+        "gracias": "despedida",
+        "adios": "despedida",
+        "bye": "despedida",
+        "soporte": "soporte",
+        "ayuda": "soporte",
+        "humano": "escalamiento",
+        "agente": "escalamiento",
+        "persona": "escalamiento"
+    },
+    "mensajes": {
+        "bienvenida": "¡Hola!  Bienvenido a *{nombre}*.\n\nSoy tu asistente virtual y puedo ayudarte con:\n•  Precios y cotizaciones\n•  Horarios de atención\n•  Ubicación\n•  Nuestros productos/Servicios\n\n¿En qué puedo ayudarte hoy?",
+        
+        "precios": " *Información de Precios*\n\nNuestros planes son:\n• Básico: --\n• Profesional: --\n• Empresarial: --\n\n¿Te gustaría una cotización personalizada?",
+        
+        "horarios": " *Horarios de Atención*\n\n{horario}\n\n¿Necesitas algo más?",
+        
+        "ubicacion": " *Nos encontramos en:*\n\nCalle Principal #123, Antigua Guatemala\n Tel: {whatsapp}\n\n¿Necesitas indicaciones?",
+        
+        "productos": " *Nuestros Servicios*\n\n• Consultoría empresarial\n• Desarrollo de software\n• Marketing digital\n• Soporte técnico\n\n¿Cuál te interesa?",
+        
+        "soporte": " *Soporte Técnico*\n\nPara ayudarte mejor, indícame:\n1️⃣ ¿Cuál es el problema?\n2️⃣ ¿Desde cuándo ocurre?\n\nSi es urgente, escribe *\"humano\"* para hablar con un agente.",
+        
+        "escalamiento": "*Te conecto con un agente...*\n\nPor favor espera un momento. Un representante de *{nombre}* te atenderá pronto.\n\n También puedes llamarnos: {whatsapp}",
+        
+        "despedida": "¡Gracias por contactarnos! \n\nSi necesitas algo más, aquí estaré. ¡Que tengas excelente día!",
+        
+        "no_entendi": "No estoy seguro de entender.\n\nPuedo ayudarte con:\n• Precios \n• Horarios \n• Ubicación \n• Productos \n• Soporte \n\n¿Cuál te interesa?"
+    }
+}
