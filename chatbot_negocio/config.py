@@ -8,6 +8,4 @@ class ConfigNegocio:
     EMAIL = os.environ.get('EMAIL', 'contacto@tuempresa.com')
     
     # Credenciales Twilio (¡importante usar variables de entorno!)
-    TWILIO_SID = os.environ.get('TWILIO_SID', '')
-    TWILIO_TOKEN = os.environ.get('TWILIO_TOKEN', '')
-    TWILIO_NUMERO = os.environ.get('TWILIO_NUMERO', 'whatsapp:+14155238886')
+    WHAPI_TOKEN ="5fzqdjXdfFhupFynlu6GItXlODakIjrz"
