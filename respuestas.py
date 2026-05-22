@@ -9,7 +9,7 @@ class ChatbotNegocio:
     
     def _cargar_config(self):
         """Carga palabras clave y mensajes desde JSON"""
-        ruta = Path(__file__).parent.parent / "respuestas.json"
+        ruta = Path(__file__).parent / "respuestas.json"
         with open(ruta, 'r', encoding='utf-8') as f:
             return json.load(f)
     
