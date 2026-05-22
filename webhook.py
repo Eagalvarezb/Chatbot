@@ -57,7 +57,7 @@ def procesar_webhook(data: dict, bot, datos_negocio: dict):
         texto = msg.get("text", {}).get("body", "")  # El mensaje
         chat_id = msg.get("chat", {}).get("id", numero)
         
-        if not texto:
+        if not texto or msg.get("fromMe") == True:
             continue
 
         if msg.get("fromMe") == True:
