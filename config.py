@@ -11,7 +11,7 @@ class ConfigNegocio:
     EMAIL = os.environ.get('EMAIL', 'contacto@tuempresa.com')
     
     # Credenciales 
-    WHAPI_TOKEN = os.environ.get('WHAPI_TOKEN', '')
+    WHAPI_TOKEN = os.environ.get('WHAPI_TOKEN', None)
     
     if not WHAPI_TOKEN:
         raise ValueError(" WHAPI_TOKEN no está configurado en variables de entorno")
