@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class ConfigNegocio:
     """Configuración básica del negocio"""
@@ -7,5 +10,8 @@ class ConfigNegocio:
     WHATSAPP_NUMERO = os.environ.get('WHATSAPP_NUMERO', '+502 1234-5678')
     EMAIL = os.environ.get('EMAIL', 'contacto@tuempresa.com')
     
-    # Credenciales Twilio (¡importante usar variables de entorno!)
-    WHAPI_TOKEN ="5fzqdjXdfFhupFynlu6GItXlODakIjrz"
+    # Credenciales 
+    WHAPI_TOKEN = os.environ.get('WHAPI_TOKEN', '')
+    
+    if not WHAPI_TOKEN:
+        raise ValueError(" WHAPI_TOKEN no está configurado en variables de entorno")
