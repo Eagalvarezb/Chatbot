@@ -1,7 +1,8 @@
 # app.py 
 from flask import Flask, request, jsonify
 from config import ConfigNegocio
-from bot import ChatbotNegocio, procesar_webhook
+from respuestas import ChatbotNegocio
+from webhook import procesar_webhook
 
 app = Flask(__name__)
 
@@ -70,4 +71,4 @@ def ver_config():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=False,host='0.0.0.0', port=5000)
